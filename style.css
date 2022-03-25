@@ -1,35 +1,40 @@
 * {
     margin: 0;
-    padding: 0;
+    padding-top: 0;
     box-sizing: border-box;
 }
 
 header {
     background-color: pink;
     height: 100px;
-    width: 800px;
+    width: 1200px;
     margin: auto;
+    margin-top: 20px;
 }
 
 .yellowbox {
     background-color: yellow;
-    height: 400px;
-    width: 800px;
+    height: 600px;
+    width: 1200px;
     margin: auto;
     margin-top: 20px;
 }
 
 .bluebox {
-    width: 800px;
-    height: 480px;
+    width: 1200px;
+    height: 530px;
     position: relative;
     margin: auto;
     margin-top: 20px;
-    margin-bottom: 60px;    
+    margin-bottom: 20px;
+    background-color: blue;
+    content: "";
+    display: table;
+    clear: both;    
 }
 
 .horizontal_blue {   
-    width: 800px;    
+    width: 1200px;    
     background-color: aqua;
     height: 100px;
 }
@@ -38,7 +43,7 @@ header {
     float: left;
     background-color: aqua;
     height: 400px;
-    width: 80px;
+    width: 185px;
     margin-top: 15px;
 }
 
@@ -46,7 +51,7 @@ header {
     float: left;
     background-color: aqua;
     height: 400px;
-    width: 600px;
+    width: 800px;
     margin-left: 15px;
     margin-top: 15px;
 }
@@ -55,14 +60,15 @@ header {
     float: left;
     background-color: aqua;
     height: 400px;
-    width: 80px;
+    width: 185px;
     margin-top: 15px;
     margin-left: 15px;
 }
 
 footer {
-    width: 800px;    
+    width: 1200px;    
     background-color: purple;
     height: 100px;
-    margin: auto;
+    margin: auto; 
+    margin-bottom: 20px;   
 }
