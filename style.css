@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: pink;
+    height: 100px;
+    width: 800px;
+    margin: auto;
+}
+
+.yellowbox {
+    background-color: yellow;
+    height: 400px;
+    width: 800px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.bluebox {
+    width: 800px;
+    height: 480px;
+    position: relative;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 60px;    
+}
+
+.horizontal_blue {   
+    width: 800px;    
+    background-color: aqua;
+    height: 100px;
+}
+
+.colsx_blue {
+    float: left;
+    background-color: aqua;
+    height: 400px;
+    width: 80px;
+    margin-top: 15px;
+}
+
+.colcentral_blue {
+    float: left;
+    background-color: aqua;
+    height: 400px;
+    width: 600px;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+
+.coldx_blue {
+    float: left;
+    background-color: aqua;
+    height: 400px;
+    width: 80px;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+footer {
+    width: 800px;    
+    background-color: purple;
+    height: 100px;
+    margin: auto;
+}
